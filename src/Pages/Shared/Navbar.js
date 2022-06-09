@@ -9,7 +9,9 @@ const Navbar = () => {
       </li>
 
       <li>
-        <Link to="/resume">Resume</Link>
+        <a href="https://drive.google.com/file/d/18z2M1HjA3Ocw9wuidhIhdGey7_CPkNZt/view?usp=sharing">
+          <button class="btn">Resume</button>
+        </a>
       </li>
       <li>
         <Link to="/my-projects">My-Projects</Link>
@@ -23,8 +25,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div class="navbar bg-base-100">
-      <div class="navbar-start">
+    <div class="navbar bg-base-100 ">
+      <div class="navbar-start ">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
             <svg
@@ -52,9 +54,6 @@ const Navbar = () => {
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menuItems}</ul>
-      </div>
-      <div class="navbar-end">
-        <a class="btn">Get started</a>
       </div>
     </div>
   );
