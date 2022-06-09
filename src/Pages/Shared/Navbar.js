@@ -17,7 +17,9 @@ const Navbar = () => {
         <Link to="/my-projects">My-Projects</Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <a href="https://form.jotform.com/221593255467462">
+          <button class="btn btn-active btn-ghost">Contact</button>
+        </a>
       </li>
       <li>
         <Link to="/about">About</Link>

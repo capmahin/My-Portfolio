@@ -7,7 +7,6 @@ import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
 
 import MyProjects from "./Pages/My-projects/MyProjects";
-import Contact from "./Pages/Contact/Contact";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <Route path="about" element={<About />} />
 
         <Route path="my-projects" element={<MyProjects />} />
-        <Route path="contact" element={<Contact />} />
       </Routes>
     </div>
   );

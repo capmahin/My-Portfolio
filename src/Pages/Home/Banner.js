@@ -13,10 +13,15 @@ const Banner = () => {
           <h1 class="text-5xl font-bold text-purple-900">
             I am a Full Stack Developer.
           </h1>
-          <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          <p class="py-6 text-xl font-bold">
+            I can build Full Stack website. i like to build Front-End and
+            Back-end both side .. i love to work using React. i work many MEAN
+            Stack Projects. I’ve always been someone who has both a creative and
+            a logical side. When I discovered web design. i love to Prefer
+            wroking in MEAN Stack Project.
+          </p>
+          <p class="py-2 text-xl font-bold text-purple-900">
+            MEAN stack: JavaScript - MongoDB - Express - AngularJS - Node.js
           </p>
         </div>
       </div>

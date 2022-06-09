@@ -17,10 +17,11 @@ const Projects = () => {
         <h3 className="text-xl text-primary font-bold">Projects</h3>
         <h2 className="text-3xl">Watch it!</h2>
         <p>
-          Royal Enfield is an Indian multinational motorcycle manufacturing
-          company headquartered in Chennai, Tamil Nadu, India. The company is
-          the oldest global motorcycle brand in continuous production, and
-          operates manufacturing plants in Chennai in India.
+          A full stack web developer is a person who can develop both client and
+          server software.In addition to mastering HTML and CSS, he knows how
+          to: Program a browser (like using JavaScript, jQuery, Angular, or Vue)
+          Program a server (like using PHP, ASP, Python, or Node) Program a
+          database (like using SQL, SQLite, or MongoDB).
         </p>
         <div>
           <Link to="/my-projects" onClick={navigateProjects}>

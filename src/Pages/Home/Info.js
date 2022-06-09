@@ -1,15 +1,17 @@
 import React from "react";
 import InfoCard from "./InfoCard";
-import card1 from "../../assists/Images/Banner/Full-stack.jpg";
-import card2 from "../../assists/Images/Banner/Mean-stack.jpeg";
-import card3 from "../../assists/Images/Banner/Node.png";
+import card1 from "../../assists/Images/Banner/Mongodb.jpg";
+import card2 from "../../assists/Images/Banner/Express.png";
+import card3 from "../../assists/Images/Banner/React.jpeg";
+import card4 from "../../assists/Images/Banner/Node.png";
 
 const Info = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-      <InfoCard cardTitle="Full-Stack" img={card1}></InfoCard>
-      <InfoCard cardTitle="Mean-stack" img={card2}></InfoCard>
-      <InfoCard cardTitle="Node" img={card3}></InfoCard>
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
+      <InfoCard cardTitle="Mongodb" img={card1}></InfoCard>
+      <InfoCard cardTitle="Express" img={card2}></InfoCard>
+      <InfoCard cardTitle="React" img={card3}></InfoCard>
+      <InfoCard cardTitle="Node" img={card4}></InfoCard>
     </div>
   );
 };
