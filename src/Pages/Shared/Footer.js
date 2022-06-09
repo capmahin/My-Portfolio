@@ -54,9 +54,9 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-      </div>
-      <div className="my-10 text-center">
-        <p>Copyright © 2022 - All right reserved Mahin.com</p>
+        <div className="my-10 text-center">
+          <p>Copyright © 2022 - All right reserved Mahin.com</p>
+        </div>
       </div>
     </footer>
   );
