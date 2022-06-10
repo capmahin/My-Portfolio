@@ -23,6 +23,15 @@ const MyProjects = () => {
               Auth, React-hooks.
             </p>
             <p> • Back End Tech Used: Mongdb,Express,cods</p>
+            <div>
+              <p className="text-xl font-bold text-center p-3 ">
+                For Full Code Details!!!
+              </p>
+              <a href="https://github.com/capmahin/Bike-manufacture-center">
+                {" "}
+                <button class="btn btn-info">GitHub</button>
+              </a>
+            </div>
             <div class="card-actions">
               <a href="https://assignment-12-dfa93.firebaseapp.com/">
                 <button class="btn btn-primary">Live-link</button>
@@ -42,6 +51,15 @@ const MyProjects = () => {
               Auth,React-BootStrap.
             </p>
             <p>• Deploy:In FireBase</p>
+            <div>
+              <p className="text-xl font-bold text-center p-3 ">
+                For Full Code Details!!!
+              </p>
+              <a href="https://github.com/capmahin/gym-equvment-site">
+                {" "}
+                <button class="btn btn-info">GitHub</button>
+              </a>
+            </div>
             <div class="card-actions">
               <a href="https://assignment-10-eee47.web.app/">
                 {" "}
@@ -62,6 +80,15 @@ const MyProjects = () => {
               React,ReactTailwind,React-routs,React-hooks.
             </p>
             <p>• Back End Tech Used: Mongdb,Express,cods</p>
+            <div>
+              <p className="text-xl font-bold text-center p-3 ">
+                For Full Code Details!!!
+              </p>
+              <a href="https://github.com/capmahin/Bike-wareHouse-clinetsite">
+                {" "}
+                <button class="btn btn-info">GitHub</button>
+              </a>
+            </div>
             <div class="card-actions">
               <a href="https://assignment-11-b1cef.web.app/">
                 <button class="btn btn-primary">Live Link</button>
