@@ -4,8 +4,8 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Projects = () => {
   const navigate = useNavigate();
-  const navigateProjects = () => {
-    navigate("/my-projects");
+  const navigateBlogs = () => {
+    navigate("/blogs");
   };
 
   return (
@@ -14,24 +14,19 @@ const Projects = () => {
         <img className="rounded-lg shadow-2xl" src={projects} alt="" />
       </div>
       <div className="flex-1 p-4">
-        <h3 className="text-xl text-primary font-bold">Projects</h3>
+        <h3 className="text-xl text-primary font-bold">My-Blogs</h3>
         <h2 className="text-3xl">Watch it!</h2>
         <p>
           A full stack web developer is a person who can develop both client and
           server software.In addition to mastering HTML and CSS, he knows how
           to: Program a browser (like using JavaScript, jQuery, Angular, or Vue)
           Program a server (like using PHP, ASP, Python, or Node) Program a
-          database (like using SQL, SQLite, or MongoDB). A full stack web
-          developer is a person who can develop both client and server
-          software.In addition to mastering HTML and CSS, he knows how to:
-          Program a browser (like using JavaScript, jQuery, Angular, or Vue)
-          Program a server (like using PHP, ASP, Python, or Node) Program a
           database (like using SQL, SQLite, or MongoDB).
         </p>
         <div>
-          <Link to="/my-projects" onClick={navigateProjects}>
+          <Link to="/blogs" onClick={navigateBlogs}>
             {" "}
-            <button class="btn btn-wide btn-info">Projects</button>
+            <button class="btn btn-wide btn-info">My-Blogs</button>
           </Link>
         </div>
       </div>

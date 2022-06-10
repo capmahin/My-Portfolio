@@ -1,7 +1,12 @@
 import React from "react";
 import Me from "../../assists/Images/ME/Me.jpg";
+import { Link, useNavigate } from "react-router-dom";
 
 const Banner = () => {
+  const navigate = useNavigate();
+  const navigateAbout = () => {
+    navigate("/about");
+  };
   return (
     <div class="hero min-h-screen ">
       <div class="hero-content flex-col lg:flex-row-reverse">
@@ -23,6 +28,14 @@ const Banner = () => {
           <p class="py-2 text-xl font-bold text-purple-900">
             MEAN stack: JavaScript - MongoDB - Express - AngularJS - Node.js
           </p>
+          <div>
+            <button
+              class="btn btn-xs btn-info sm:btn-sm md:btn-md lg:btn-lg"
+              onClick={navigateAbout}
+            >
+              About Me
+            </button>
+          </div>
         </div>
       </div>
     </div>
