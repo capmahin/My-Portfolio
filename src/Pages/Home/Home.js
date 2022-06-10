@@ -3,13 +3,16 @@ import Footer from "../Shared/Footer";
 import Banner from "./Banner";
 import Info from "./Info";
 import Projects from "./Projects";
+import ProjectsInfo from "./ProjectsInfo";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <Info></Info>
+      <ProjectsInfo></ProjectsInfo>
       <Projects></Projects>
+      <Info></Info>
+
       <Footer></Footer>
     </div>
   );

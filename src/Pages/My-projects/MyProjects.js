@@ -1,7 +1,7 @@
 import React from "react";
-import bike from "../../assists/Images/MyProjects/Bike.jpg";
-import bikecenter from "../../assists/Images/MyProjects/Bike-house.jpg";
-import gym from "../../assists/Images/MyProjects/Gym.jpg";
+import bike from "../../assists/Images/MyProjects/Bike-Center.png";
+import bikecenter from "../../assists/Images/MyProjects/Bike-WareHouse.png";
+import gym from "../../assists/Images/MyProjects/Gym.png";
 
 const MyProjects = () => {
   return (

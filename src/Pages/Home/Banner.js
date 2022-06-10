@@ -1,6 +1,6 @@
 import React from "react";
 import Me from "../../assists/Images/ME/Me.jpg";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Banner = () => {
   const navigate = useNavigate();
