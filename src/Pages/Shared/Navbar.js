@@ -9,7 +9,7 @@ const Navbar = () => {
       </li>
 
       <li>
-        <a href="https://drive.google.com/file/d/1XHapKmWrlzBoyPzIWJNYsRQwVMSMQ1i8/view?usp=sharing">
+        <a href="https://drive.google.com/drive/folders/1EqWTmjHwh98gQ0-mRe-HoduBad_C4vuD?usp=sharing">
           <button class="btn">Resume</button>
         </a>
       </li>
