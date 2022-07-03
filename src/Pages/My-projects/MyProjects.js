@@ -2,6 +2,7 @@ import React from "react";
 import bike from "../../assists/Images/MyProjects/Bike-Center.png";
 import bikecenter from "../../assists/Images/MyProjects/Bike-WareHouse.png";
 import gym from "../../assists/Images/MyProjects/Gym.png";
+
 import Bounce from "react-reveal/Bounce";
 
 const MyProjects = () => {
@@ -35,12 +36,13 @@ const MyProjects = () => {
                 </a>
               </div>
               <div class="card-actions">
-                <a href="https://assignment-12-dfa93.firebaseapp.com/">
+                <a href="https://bike-manufacture-center.vercel.app/">
                   <button class="btn btn-primary">Live-link</button>
                 </a>
               </div>
             </div>
           </div>
+
           <div class="card w-96 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src={gym} alt="Shoes" class="rounded-xl" />
@@ -63,7 +65,7 @@ const MyProjects = () => {
                 </a>
               </div>
               <div class="card-actions">
-                <a href="https://assignment-10-eee47.web.app/">
+                <a href="https://gym-equvment-site.vercel.app/">
                   {" "}
                   <button class="btn btn-primary">Live Link</button>
                 </a>
@@ -92,7 +94,7 @@ const MyProjects = () => {
                 </a>
               </div>
               <div class="card-actions">
-                <a href="https://assignment-11-b1cef.web.app/">
+                <a href="https://bike-ware-house-clinetsite.vercel.app/">
                   <button class="btn btn-primary">Live Link</button>
                 </a>
               </div>
